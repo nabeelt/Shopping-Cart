@@ -68,6 +68,7 @@
 .login-input{
 	width: 300px;
 	margin: 0  auto;
+	margin-top: 30px;
 }
 #username,#password{
 	width: 100%;
