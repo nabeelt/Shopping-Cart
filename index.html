@@ -23,12 +23,39 @@
                     <div class="button-container">
                         <input type="submit" id="login-submit" value="Login"></input>
                     </div>
+                    <span class="have-account">DON'T HAVE AN ACCOUNT ? <span id="sign-up">SIGNUP</span></span>
                 </form>
             </div>
         </div>
     </div>
+    <div class="bk-overlay"></div>
+    <div class="popup">
+        <div class="close"></div>
+        <div class="popup-header"></div>
+        <div class="popup-container">
+            <span class="message"></span>
+        </div>
+    </div>
+    <div class="popup sign-up-popup">
+        <div class="popup-header">
+            <p>SIGN UP</p>
+            <div class="close"></div>
+        </div>
+        <div class="popup-container">
+            <form id="sign-up-form">
+                <input type="text" id="name" placeholder="Fullname">
+                <input type="text" id="phone" placeholder="Phonenumber">
+                <input type="text" id="username-signup" placeholder="Username">
+                <input type="text" id="password-signup" placeholder="Password" type="password">
+                <div class="button-container">
+                    <input type="submit" id="signup-submit" value="signup"></input>
+                </div>
+            </form> 
+        </div>
+    </div>
 </body>
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/store.js"></script>
 <script type="text/javascript" src="assets/js/index.js"></script>
 <!-- <script type="text/javascript" src="assets/js/backend.js"></script> -->
 </html>

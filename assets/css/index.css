@@ -69,8 +69,11 @@
 	width: 300px;
 	margin: 0  auto;
 	margin-top: 30px;
+	font-family: 'BrandonGrotesque-Regular';
 }
-#username,#password{
+#username,#password,
+#name,#phone,
+#username-signup,#password-signup{
 	width: 100%;
 	float: left;
 	margin-bottom: 20px;
@@ -87,7 +90,7 @@
 	text-align: center;
 	padding: 20px 0;
 }
-#login-submit{
+#login-submit,#signup-submit{
 	width: 100px; 
 	height: 40px;
 	font-family: 'BrandonGrotesque-Bold';
@@ -96,4 +99,61 @@
 	color: #fff;
 	font-size: 18px;
 	text-transform: uppercase;
+}
+.popup {
+	height: auto;
+	width: 400px;
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	-ms-transform: translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    min-height: 200px;
+    display: none;
+    font-family: 'BrandonGrotesque-Bold';
+}
+.bk-overlay{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	opacity: 0.5;
+	position: fixed;
+	display: none;
+}
+.close{
+	background-image:url(../images/close.png);
+	height: 20px;
+	width: 20px;
+	background-size: cover;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer; 
+}
+.have-account span{
+	color:#3A8B2D;
+	cursor: pointer;
+
+}
+.popup-header{
+	height: 50px;
+	width: 100%;
+	/* background-color: #000; */
+	border-bottom: 2px solid #000;
+}
+#sign-up-form{
+	padding: 20px;
+}
+.popup-header p{
+	padding-top: 15px;
+	text-align: center;
+	font-size: 18px;
+}
+.sign-up-popup{
+	top: 50%;
 }
